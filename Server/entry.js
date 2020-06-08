@@ -1,3 +1,4 @@
+// @author Finn Frankis
 const mongoose = require("./db");
 
 // Define the format for all data entries which will be stored.

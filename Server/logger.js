@@ -1,3 +1,5 @@
+// @author Finn Frankis
+
 /**
  * Driver file for this class. To run this file, specify two command-line parameters: the email of the relevant user, 
  * followed by a integer which is 0 if the user is 

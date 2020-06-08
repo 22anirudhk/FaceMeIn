@@ -171,7 +171,7 @@ def make_popup():
         isCheckingIn = 1 #to check out
 
         osOutput = os.popen(
-            "node Existing-Attendance-System/logger.js %s %s" % (email, isCheckingIn))  # like os.system but STORES output in variable
+            "node Server/logger.js %s %s" % (email, isCheckingIn))  # like os.system but STORES output in variable
         valsList = []
         for val in osOutput:  # iterate over output line-by-line
             valsList.append(val.replace("\n", ""))
@@ -195,7 +195,7 @@ def make_popup():
         isCheckingIn = 0 #to check in
 
         osOutput = os.popen(
-            "node Existing-Attendance-System/logger.js %s %s" % (email, isCheckingIn))  # like os.system but STORES output in variable
+            "node Server/logger.js %s %s" % (email, isCheckingIn))  # like os.system but STORES output in variable
         vals_list = []
         for val in osOutput:  # iterate over output line-by-line
             vals_list.append(val.replace("\n", ""))

@@ -4,10 +4,10 @@ Welcome to Anirudh's Improved Attendance System which utilizes Facial Recognitio
 
 It is currently used by FRC Team 1072 to keep track of member hours and for safety purposes.
 
-Note: The styling was tuned for two specific devices. You may need to modify the positioning and styling.
-Note 2: Run using python3. 
+## Note:
+1. You will need to ssh into the server in order to modify the attendance database contents.
+1. You will also need to modify Server/db.js to connect to the correct mongodb server.
 
-There are two versions implemented:
 
 # Version 2
 The camera feed runs and once a face is recognized, a popup is shown asking if they would like to check in. They can check-in or rescan. In the future, QR functionality will be added as a third option.
