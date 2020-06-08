@@ -1,0 +1,16 @@
+appdirs==1.4.3
+certifi==2019.11.28
+Click==7.0
+cmake==3.17.3
+distlib==0.3.0
+dlib==19.19.0
+face-recognition==1.2.3
+face-recognition-models==0.3.0
+filelock==3.0.12
+numpy==1.18.1
+opencv-python-headless==4.2.0.32
+Pillow==7.0.0
+pipenv==2018.11.26
+six==1.14.0
+virtualenv==20.0.4
+virtualenv-clone==0.5.3
