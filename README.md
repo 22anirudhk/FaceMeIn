@@ -1,4 +1,4 @@
-# face-rec-attendance
+# FaceMeIn
 
 Welcome to Anirudh's Improved Attendance System which utilizes Facial Recognition to check in members.
 
