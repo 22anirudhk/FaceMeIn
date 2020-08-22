@@ -322,7 +322,7 @@ def make_popup():
 
 
 #Current video stream
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) #You may need to change the index of the camera if you have multiple cameras
 
 if(hasTwoCameras):
     cap = cv2.VideoCapture(0, cv2.CAP_DSHOW) #Use front facing camera
