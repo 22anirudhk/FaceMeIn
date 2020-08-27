@@ -2,8 +2,6 @@
 
 Welcome to Anirudh's Improved Attendance System which utilizes Facial Recognition to check in members.
 
-It is currently used by FRC Team 1072 to keep track of member hours and for safety purposes.
-
 ## Note:
 1. You will need to ssh into the server in order to modify the attendance database contents.
 1. You will also need to modify Server/db.js to connect to the correct mongodb server.
