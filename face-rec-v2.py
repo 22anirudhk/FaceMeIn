@@ -3,7 +3,6 @@
 ###
 
 #Imports
-import face_recognition
 import numpy as np
 import cv2 #use headless
 import os
@@ -29,8 +28,9 @@ members = []
 
 #Amount of people to show when running the face rec
 # CHANGE_IF_NEEDED
-NUM_PEOPLE_TO_SHOW = 1
+NUM_PEOPLE_TO_SHOW = 1 
 
+#People who've already checked in
 checked_in_people = []
 
 # CHANGE_IF_NEEDED
@@ -74,6 +74,7 @@ text.place(x = message_X, y = message_Y)
 
 #Widget that stores the video
 lmain = Label(root)
+import face_recognition
 #Place the video
 if(is_PC):
     # CHANGE_IF_NEEDED
